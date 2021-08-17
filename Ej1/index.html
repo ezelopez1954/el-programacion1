@@ -5,23 +5,22 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="bootstrap.min.css">
 </head>
 <body>
-    <div class="container-fluid mt-3">
-        <div class="row">
-            <div class="col-4">
-                <div class="mb-3">
-                    <label class="form-label">Cateto adyacente</label>
-                    <input id="inp_adyacente" class="form-control" type="text">
-                </div>
-                <div class="mb-3">
-                    <label class="form-label">Cateto opuesto</label>
-                    <input id="inp_opuesto" class="form-control" type="text">
-                    <button id="btn_mostrar" class="btn btn-primary mt-3">Saber tu futuro </button>
-                </div>
-            </div>
+    <div class="container-fluid mt-3">                    
+        <div class="mb-3">
+            <label class="form-label">Cateto adyacente</label>
+            <input id="inp_adyacente" class="form-control" type="text">
         </div>
+        <div class="mb-3">
+            <label class="form-label">Cateto opuesto</label>
+            <input id="inp_opuesto" class="form-control" type="text">
+        </div>
+        <button id="btn_calcular" class="btn btn-primary mt-3">Calcular</button>    
+    </div>
     <script src="index.js"></script>
+    <h4 id="h_resultado"></h4>
 
 </body>
 </html>
